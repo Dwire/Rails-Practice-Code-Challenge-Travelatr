@@ -9,7 +9,7 @@
 
 30.times do 
   Destination.create({
-    name: Faker::GameOfThrones.city,
+    name: Faker::TvShows::GameOfThrones.city,
     country: Faker::Address.country
   })
 end
@@ -21,14 +21,4 @@ end
     bio: Faker::Hipster.paragraph,
     age: (13..100).to_a.sample
   })
-
-  (2..6).to_a.sample.times do 
-    Post.create({
-      title: Faker::Hipster.sentence(3),
-      content: Faker::Hipster.paragraphs(4),
-      likes: 0,
-      blogger: blogger,
-      destination: Destination.all.sample
-    })
-  end
-end
+end 

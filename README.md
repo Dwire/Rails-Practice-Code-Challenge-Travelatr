@@ -16,6 +16,6 @@ db:migrate and rake db:seed to get started.
 
 2.) As a user, I should be able to fill out a form to create a new blog post. I should be able to choose an existing blogger, an existing destination, add a rating and add some blog content. Upon successfully creating a blog post, I should be redirected to the selected destinations show page.
 
-3.) On the bloggers index page, clicking on a bloggers name should take us to a detail view about each blogger. This View should include the bloggers name and list of destinations they have blogged about.
+3.) On the bloggers index page, clicking on a bloggers name should take us to a detail view about each blogger. This View should include the bloggers name/bio/age and list of destinations they have blogged about.
 
 4.) As a user, I should be able to view all of the bloggers for a particular destination. This means that we'll need a destinations show page that lists all of the bloggers who have written blog posts about that destination.
