@@ -1,0 +1,10 @@
+<h1>POST</h1>
+<p><%= @post.content %></p>
+<p><%= @post.likes %></p>
+
+<h2>Blogger</h2>
+<%= link_to @post.blogger.name, blogger_path(@post.blogger) %>
+
+<%= button_to "Trash It", post_path(@post), method: :delete %>
+                          <%# GET /posts/:id %>
+                          <%# DELETE /posts/:id %>
